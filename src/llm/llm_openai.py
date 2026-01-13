@@ -6,7 +6,7 @@ client = OpenAI(
 )
 
 resp = client.chat.completions.create(
-    model="llama3.1",
+    model="llama3.2",
     messages=[{"role": "user", "content": "Resume en 2 frases qué es Podman."}],
 )
 
